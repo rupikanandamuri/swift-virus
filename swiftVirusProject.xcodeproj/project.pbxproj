@@ -12,6 +12,13 @@
 		0BDC14A8243E2A6900BF94B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDC14A6243E2A6900BF94B8 /* Main.storyboard */; };
 		0BDC14AA243E2A6D00BF94B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDC14A9243E2A6D00BF94B8 /* Assets.xcassets */; };
 		0BDC14AD243E2A6D00BF94B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDC14AB243E2A6D00BF94B8 /* LaunchScreen.storyboard */; };
+		0BDC14B5243E416300BF94B8 /* TestRequiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC14B4243E416300BF94B8 /* TestRequiredViewController.swift */; };
+		0BDC14B7243E417700BF94B8 /* TestNotRquired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC14B6243E417700BF94B8 /* TestNotRquired.swift */; };
+		0BDC14B9243E41AC00BF94B8 /* DisplayResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC14B8243E41AC00BF94B8 /* DisplayResult.swift */; };
+		0BDC14BB243E47C700BF94B8 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC14BA243E47C700BF94B8 /* Patient.swift */; };
+		0BDC14BD243E50AD00BF94B8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC14BC243E50AD00BF94B8 /* DataSource.swift */; };
+		0BDC14C1243E6EFE00BF94B8 /* TestNotRequiredTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC14C0243E6EFE00BF94B8 /* TestNotRequiredTableViewCell.swift */; };
+		0BDF5373243F84BB00C8BC4E /* TestRequiredTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF5372243F84BB00C8BC4E /* TestRequiredTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		0BDC14A9243E2A6D00BF94B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BDC14AC243E2A6D00BF94B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BDC14AE243E2A6D00BF94B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDC14B4243E416300BF94B8 /* TestRequiredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequiredViewController.swift; sourceTree = "<group>"; };
+		0BDC14B6243E417700BF94B8 /* TestNotRquired.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNotRquired.swift; sourceTree = "<group>"; };
+		0BDC14B8243E41AC00BF94B8 /* DisplayResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResult.swift; sourceTree = "<group>"; };
+		0BDC14BA243E47C700BF94B8 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		0BDC14BC243E50AD00BF94B8 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		0BDC14C0243E6EFE00BF94B8 /* TestNotRequiredTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNotRequiredTableViewCell.swift; sourceTree = "<group>"; };
+		0BDF5372243F84BB00C8BC4E /* TestRequiredTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequiredTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +70,14 @@
 			children = (
 				0BDC14A2243E2A6900BF94B8 /* AppDelegate.swift */,
 				0BDC14A4243E2A6900BF94B8 /* ViewController.swift */,
+				0BDC14B4243E416300BF94B8 /* TestRequiredViewController.swift */,
+				0BDF5372243F84BB00C8BC4E /* TestRequiredTableViewCell.swift */,
+				0BDC14B8243E41AC00BF94B8 /* DisplayResult.swift */,
+				0BDC14C0243E6EFE00BF94B8 /* TestNotRequiredTableViewCell.swift */,
+				0BDC14B6243E417700BF94B8 /* TestNotRquired.swift */,
 				0BDC14A6243E2A6900BF94B8 /* Main.storyboard */,
+				0BDC14BA243E47C700BF94B8 /* Patient.swift */,
+				0BDC14BC243E50AD00BF94B8 /* DataSource.swift */,
 				0BDC14A9243E2A6D00BF94B8 /* Assets.xcassets */,
 				0BDC14AB243E2A6D00BF94B8 /* LaunchScreen.storyboard */,
 				0BDC14AE243E2A6D00BF94B8 /* Info.plist */,
@@ -135,6 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDC14BD243E50AD00BF94B8 /* DataSource.swift in Sources */,
+				0BDC14B7243E417700BF94B8 /* TestNotRquired.swift in Sources */,
+				0BDF5373243F84BB00C8BC4E /* TestRequiredTableViewCell.swift in Sources */,
+				0BDC14B5243E416300BF94B8 /* TestRequiredViewController.swift in Sources */,
+				0BDC14C1243E6EFE00BF94B8 /* TestNotRequiredTableViewCell.swift in Sources */,
+				0BDC14B9243E41AC00BF94B8 /* DisplayResult.swift in Sources */,
+				0BDC14BB243E47C700BF94B8 /* Patient.swift in Sources */,
 				0BDC14A5243E2A6900BF94B8 /* ViewController.swift in Sources */,
 				0BDC14A3243E2A6900BF94B8 /* AppDelegate.swift in Sources */,
 			);
